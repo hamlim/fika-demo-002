@@ -4,14 +4,14 @@
     "": {
       "name": "fika-demo-002",
       "dependencies": {
-        "@fika-ts/framework": "0.0.1",
+        "@fika-ts/framework": "0.0.2",
         "@tailwindcss/cli": "4.0.0",
         "hono": "4.6.18",
         "tailwindcss": "4.0.0",
       },
       "devDependencies": {
         "@cloudflare/workers-types": "4.20250109.0",
-        "@fika-ts/tools": "0.0.1",
+        "@fika-ts/tools": "0.0.2",
         "chokidar": "4.0.3",
         "wrangler": "3.101.0",
       },
@@ -166,9 +166,9 @@
 
     "@fastify/busboy": ["@fastify/busboy@2.1.1", "", {}, "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="],
 
-    "@fika-ts/framework": ["@fika-ts/framework@0.0.1", "", { "peerDependencies": { "hono": "^4.6.18", "react": "*", "react-dom": "*" } }, "sha512-exBaipJnwFqcLC5n4kqj8GAUlO6vMAbGjAGczxnVp7nQ2AnQu+mEacBZ63sQc4C7L+3IkHG2tx0vRl7fIlgtzw=="],
+    "@fika-ts/framework": ["@fika-ts/framework@0.0.2", "", { "peerDependencies": { "hono": "^4.6.18", "react": "*", "react-dom": "*" } }, "sha512-nikqDULDg9d+Ch8++m3t5Ee7+5h1mQRpaN+WmidEW+IyXXh17rZmGesNaM6gs0k/dgG4w+7wovWfcNKvMPdOqA=="],
 
-    "@fika-ts/tools": ["@fika-ts/tools@0.0.1", "", { "dependencies": { "esbuild": "0.24.2", "fast-glob": "3.3.3", "oxc-transform": "0.48.0" }, "bin": { "fika": "cli.mjs" } }, "sha512-KQf8vV1udazJJZ7QeUW92ajz5UQvHENpWmmI0bGyCkPWyjyapGmi4w33IJAp890m3/knbcAuInUwgVfpQIsaLQ=="],
+    "@fika-ts/tools": ["@fika-ts/tools@0.0.2", "", { "dependencies": { "esbuild": "0.24.2", "fast-glob": "3.3.3", "oxc-transform": "0.48.0" }, "bin": { "fika": "cli.mjs" } }, "sha512-y5hiRfknRf2JSkdOkDtzU5mlCWu4plcn9v1vWn83u5sWrVZzOen6Nps/EClN+o/1RKlF94XEHPEk8zgJs8Wd+w=="],
 
     "@jridgewell/resolve-uri": ["@jridgewell/resolve-uri@3.1.2", "", {}, "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw=="],
 

@@ -1,0 +1,28 @@
+{
+  "name": "fika-demo-002",
+  "scripts": {
+    "build": "bun run build:app && bun run build:tailwind",
+    "build:tailwind": "bunx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css",
+    "build:app": "fika --projectRoot ./src --outDir ./dist",
+    "dev": "bun run dev:app & bun run dev:tailwind & bun run dev:wrangler",
+    "dev:tailwind": "bunx @tailwindcss/cli -i ./src/style.css -o ./dist/style.css --watch",
+    "dev:app": "bun dev.mjs",
+    "dev:wrangler": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@fika-ts/framework": "0.0.1",
+    "hono": "4.6.18",
+    "@tailwindcss/cli": "4.0.0",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20250109.0",
+    "@fika-ts/tools": "0.0.1",
+    "wrangler": "3.101.0",
+    "chokidar": "4.0.3"
+  },
+  "imports": {
+    "#framework/storage": "@fika-ts/framework/storage.server"
+  }
+}

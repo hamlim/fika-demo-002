@@ -19,7 +19,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250109.0",
     "@fika-ts/tools": "0.0.2",
-    "wrangler": "3.101.0",
+    "wrangler": "3.114.17",
     "chokidar": "4.0.3"
   },
   "imports": {
